@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #5fa3fc;
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* 양옆 패딩 20px */
+}
+
+.logo {
+  width: 130px;
+  height: 36px; /* 로고 크기 조절 (필요하면 변경 가능) */
+}
+
+.icons {
+  display: flex;
+  gap: 16px; /* 아이콘 사이 간격 16px */
+  margin-left: auto; /* 로고와 아이콘 사이 자동 간격 */
+}
+
+.icon {
+  width: 25px;
+  height: 25px; /* 아이콘 크기 조절 */
+}

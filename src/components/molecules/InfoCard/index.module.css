@@ -1,0 +1,25 @@
+.wrap {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:24px 20px ;
+    width: 100%;
+    gap :20px;
+}
+
+.icontext_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap :10px;
+    font-size: 12px;
+    font-family: NamumSquareNeo,sans-serif;
+}
+
+.SubTitle_02_Bold {
+    font-size: 18px;
+    font-family: 'bold';
+    color :#000000;
+}

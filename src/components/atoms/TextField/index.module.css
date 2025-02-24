@@ -1,0 +1,8 @@
+.wrap {
+    height: 20px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    padding: 18px;
+    resize: none;
+}

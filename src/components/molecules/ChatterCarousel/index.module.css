@@ -1,0 +1,48 @@
+.wrap0 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+  height: auto;
+}
+
+.wrap1 {
+  flex-direction: column;
+  display: flex;
+  margin: 24px 20px;
+}
+.wrap2 {
+}
+
+.wrap3 {
+  display: flex;
+  /* margin-top: 20px; */
+  column-gap: 10px;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+.wrap3::-webkit-scrollbar {
+  display: none;
+}
+
+.button1 {
+  border-radius: 100px;
+  border: 1px solid #e6e6e6;
+  height: 58px;
+  width: 58px;
+}
+
+.SubTitle_02_Bold {
+  font-size: 18px;
+  font-family: 'bold';
+  color: #1a1a1a;
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('../src/fonts/NanumSquareNeo-cBd.ttf') format('truetype');
+}

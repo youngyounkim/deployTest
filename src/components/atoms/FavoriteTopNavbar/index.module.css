@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 기본적으로 모든 자식들을 중앙에 */
+  position: relative; /* 내부에 절대 위치 요소를 위한 기준 */
+  background-color: #ffffff;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.icon {
+  margin-left: 20px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute; /* 왼쪽에 고정 */
+  left: 0px; /* navbar의 margin-left와 맞춰줌 */
+}
+
+.text {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: bold;
+  font-family: 'NanumSquare Neo', sans-serif;
+  color: #000000;
+  text-align: center;
+  position: absolute; /* 절대 위치 */
+  left: 50%; /* 부모 너비의 중앙 */
+  transform: translateX(-50%); /* 정확한 중앙 정렬 */
+}

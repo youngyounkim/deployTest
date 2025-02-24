@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'light';
+    src: url('../src/fonts/NanumSquareNeo-aLt.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../src/fonts/NanumSquareNeo-bRg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('../src/fonts/NanumSquareNeo-cBd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'extrabold';
+    src: url('../src/fonts/NanumSquareNeo-dEb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'heavy';
+    src: url('../src/fonts/NanumSquareNeo-eHv.ttf') format('truetype');
+}
+
+.Body_01_ExtraBold {
+    font-size: 16px;
+    font-family: 'extrabold';
+    color :#000000;
+}
+
+.Title_02_ExtraBold {
+    font-size: 20px;
+    font-family: 'extrabold';
+    color :#000000;
+}
+
+
+.wrap {
+    display: flex;
+    flex-direction: row; /* 텍스트와 이미지가 가로로 배치되도록 변경 */
+    align-items: center; /* 세로 정렬 */
+    justify-content: space-between; /* 텍스트와 이미지를 양쪽 끝에 배치 */
+    width: 100%;
+    
+}
+
+.titlecontainer {
+    display: flex;
+    flex-direction: column; /* 텍스트를 세로로 배치 */
+    align-items: flex-start; /* 텍스트 왼쪽 정렬 */
+    gap: 8px;
+}
+
+
+.imagewrap {
+    width: 80px;
+    max-width: 92px; /* 이미지 크기 조정 */
+}
+

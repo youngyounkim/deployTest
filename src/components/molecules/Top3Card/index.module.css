@@ -1,0 +1,103 @@
+.card {
+  display: flex;
+  padding: 12px;
+   
+  width: 100%; /* 카드 전체 너비 */
+  height: auto; /* 카드 전체 높이 */
+}
+
+.leftbox {
+  display: flex;
+  gap: 12px;
+}
+
+.Title_02_ExtraBold {
+  font-size: 20px;
+  font-family: 'extrabold';
+  color: #000000;
+}
+.cover {
+  width: 84px; /* 이미지 너비 */
+  height: 132px; /* 이미지 높이 */
+  border-radius: 0 4px 4px 0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* 각 항목 사이에 균등 간격 */
+  flex: 1;
+  padding-left: 10px; /* 책 이미지와의 간격 */
+  gap: 12px;
+}
+
+.topblock {
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 배치 */
+  gap: 8px; /* 세로 간격 8px */
+  height: auto;
+}
+
+.tags {
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap
+}
+
+.icontext {
+  display: flex;
+  flex-direction: column; /* 아이콘 텍스트를 수직으로 배치 */
+  gap: 6px; /* 아이콘 텍스트 간의 간격 */
+  line-height: 150%;
+  font-size: 12px;
+  font-weight: Regular;
+  justify-content: center;
+  width: 200px;
+  font-family: NanumSquareNeo, sans-serif;
+   
+}
+
+.Caption_02_Regular {
+  font-size: 10px;
+  font-family: 'regular';
+  color: #000000;
+}
+
+.Caption_01_Regular {
+  font-size: 12px;
+  font-family: 'regular';
+  color: #000000;
+}
+
+@font-face {
+  font-family: 'light';
+  src: url('../src/fonts/NanumSquareNeo-aLt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('../src/fonts/NanumSquareNeo-bRg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('../src/fonts/NanumSquareNeo-cBd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'extrabold';
+  src: url('../src/fonts/NanumSquareNeo-dEb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'heavy';
+  src: url('../src/fonts/NanumSquareNeo-eHv.ttf') format('truetype');
+}

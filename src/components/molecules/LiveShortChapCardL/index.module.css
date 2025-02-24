@@ -1,0 +1,96 @@
+.wrap {
+  position: relative;
+  width: 100%;
+  height: 384px;
+  padding-bottom: 80px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrap::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 304px;
+  background-image: url('../../../assets/image/liveshortchapcard_l_default.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+.wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: -1;
+}
+.tagText {
+  width: 59px;
+  height: 28px;
+  background-color: #f85252;
+  border: 1px solid #f40a0a;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.nonLiveTagText {
+  width: 70px;
+  height: 28px;
+  background-color: #f2f2f2;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.img_box {
+  width: 167px;
+  height: 257px;
+  border-radius: 0 8px 8px 0;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.book_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text_box {
+  width: calc(100% - 40px);
+  height: 146px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #dbeaff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}

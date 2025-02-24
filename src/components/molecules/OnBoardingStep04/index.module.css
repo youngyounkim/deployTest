@@ -1,0 +1,60 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.FavoriteTopNavbar {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contents {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.progressBar {
+  display: flex;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.buttonWrap {
+  margin-bottom: 34px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 40px;
+}
+
+.genderGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.selected {
+  background-color: #91c0fd;
+  color: black;
+  font-weight: bold;
+}
+
+
+.text_box2 {
+  font-size: 18px;
+  font-family: 'bold';
+  color: #000000;
+}

@@ -1,0 +1,31 @@
+.wrap {
+    height: 100%;
+    width: fit-content; /* 내용물에 맞게 너비 조절 */
+    white-space: nowrap;
+    padding: 6px 16px;
+    background-color: #FFE8AD;
+    border-radius: 22px;
+    border: 1px, solid, #E0A200;
+    font-size: 14px;
+    font-family: 'neo';
+    font-weight: bold;
+    color :#AD7E00;
+}
+.pressed {
+    height: 100%;
+    width: fit-content; /* 내용물에 맞게 너비 조절 */
+    white-space: nowrap;
+    padding: 6px 16px;
+    background-color: #ffffff;
+    border-radius: 22px;
+    border: 1px, solid, #CCCCCC;
+    font-size: 14px;
+    font-family: 'neo';
+    font-weight: 400;
+    color :#808080;
+}
+
+@font-face {
+    font-family: 'neo';
+    src: url('../src/fonts/NanumSquareNeo-bRg.ttf') format('truetype');
+}

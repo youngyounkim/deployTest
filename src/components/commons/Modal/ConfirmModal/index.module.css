@@ -1,0 +1,10 @@
+.Body_01_Bold {
+    font-size: 16px;
+    font-family: 'bold';
+    color :#000000;
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('../../../../fonts/NanumSquareNeo-cBd.ttf') format('truetype');
+}

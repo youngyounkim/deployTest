@@ -1,0 +1,122 @@
+.wrap {
+    padding: 36px 12px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 6px; /* 프로필, 이름, 배지 사이 간격 조정 */
+    cursor: pointer;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 14px;
+    font-family: 'bold';
+    color: #000000;
+    line-height: 150%;
+}
+
+.myName {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #033F8C; /* 내 채팅 이름 색상 */
+}
+
+.meTag {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #033F8C;
+}
+
+.badge {
+    width: 20px;
+    height: 20px;
+}
+
+.menuIcon {
+    padding-right: 4px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #F2F2F2;
+    border: 1.5px solid #E6E6E6;
+    margin-left: 20px;
+    padding: 20px 12px 12px 12px;
+    border-radius: 0 12px 12px 24px;
+    width: 307px;
+}
+
+/* 내 채팅 스타일 */
+.myChat .container {
+    background-color: #F5F9FF;
+    border: 1.5px solid #91C0FD;
+}
+
+.content {
+    font-size: 14px;
+    font-family: 'regular';
+    color: #000000;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'regular';
+    color: #333333;
+    line-height: 150%;
+}
+
+.reactions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.emoji {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.addReaction {
+    width: 32px;
+    height: 20px;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-family: 'regular';
+    color: #AD7E00;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+.commentIcon {
+    width: 20px;
+    height: 20px;
+}

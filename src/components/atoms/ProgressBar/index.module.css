@@ -1,0 +1,31 @@
+.progressWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.progressCircle {
+  transform: rotate(-90deg); /* 원은 12시 방향에서 시작하도록 회전 */
+  /* SVG 원이 시계방향으로 시작되도록 회전 */
+}
+
+.progressBackground {
+  fill: none;
+  stroke: #DBEAFF; /* 배경 테두리 색상 */
+}
+
+.progressForeground {
+  fill: none;
+  stroke: #5FA3FC; /* 진행되는 테두리 색상 */
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s ease;
+}
+
+.progressText {
+  transform: rotate(90deg);
+  transform-origin: 60px 60px;  
+  font-size: 38.3px;
+  font-weight: bold;
+  fill: #0455BE;
+}

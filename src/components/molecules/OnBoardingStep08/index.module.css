@@ -1,0 +1,85 @@
+.container {
+  padding: 0 20px 0 20px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 전체 요소들 가운데 정렬 */
+  width: 100%;  /* 화면 너비 고정 */
+}
+
+.favoritetopnavbar {
+  /* 상단 내비게이션 바 스타일 */
+  margin-top: 0; /* 상단바는 마진을 0으로 설정해줘야 상단에 맞게 붙을 수 있음 */
+  width: 100%; /* 전체 너비 사용 */
+  display: flex; /* 플렉스를 사용하여 아이콘과 텍스트 정렬 */
+  justify-content: space-between; /* 아이콘을 왼쪽, 텍스트는 가운데로 */
+  align-items: ceter; /* 아이콘과 텍스트 수직 정렬 */
+}
+
+
+.align_progress {
+  display: flex;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.progressCircle {
+  transform: rotate(-90deg);
+}
+
+.progressBackground {
+  fill: none;
+  stroke: #DBEAFF; /* 배경 테두리 색상 */
+}
+
+.progressForeground {
+  fill: none;
+  stroke: #5FA3FC; /* 진행되는 테두리 색상 */
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s ease;
+}
+
+.progressText {
+  transform: rotate(90deg);
+  transform-origin: 60px 60px;  
+  font-size: 38.3px;
+  font-weight: bold;
+  fill: #0455BE;
+}
+
+.image {
+  width: 200px; /* 이미지 사이즈 설정 */
+  height: 200px; 
+  margin: 20px 0 30px 0; /* 프로그래스 바와 이미지 간 간격 */
+  align-self: center; /* 가운데 정렬 */
+}
+
+
+.titleContainer {
+  width: 100%; /* 전체 너비 사용 */
+  height: 60px; /* 고정 높이 */
+  display: flex;
+  align-items: center; /* 텍스트 수직 중앙 정렬 */
+  justify-content: center; /* 텍스트 수평 중앙 정렬 */
+  background-color: #ffffff; /* 원하는 배경색 적용 */
+  border-radius: 8px; /* 둥근 모서리 추가 */
+  padding: 0 20px; /* 내부 여백 추가 */
+}
+
+.Title_02_Bold {
+  font-size: 20px; /* 폰트 크기 */
+  font-family: 'NanumSquare Neo', sans-serif;
+  font-weight: bold;
+  color: #000000;
+  line-height: 1.5; /* 텍스트 높이 설정 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  vertical-align: middle; /* 수직 정렬을 위해 사용 */
+}
+
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 24px; /* 타이틀과 버튼 간 간격 */
+}

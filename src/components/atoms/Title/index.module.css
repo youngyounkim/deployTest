@@ -1,0 +1,250 @@
+/* Title_01 */
+
+.Title_01_Heavy {
+    font-size: 24px;
+    font-family: 'heavy';
+    color :#000000;
+}
+
+.Title_01_ExtraBold {
+    font-size: 24px;
+    font-family: 'extrabold';
+    color :#000000;
+}
+
+.Title_01_Bold {
+    font-size: 24px;
+    font-family: 'bold';
+    color :#000000;
+}
+
+.Title_01_Regular {
+    font-size: 24px;
+    font-family: 'regular';
+    color :#000000;
+}
+
+.Title_01_Light {
+    font-size: 24px;
+    font-family: 'light';
+    color :#000000;
+}
+
+/* Title_02 */
+
+.Title_02_Heavy {
+    font-size: 20px;
+    font-family: 'heavy';
+    color :#000000;
+}
+
+.Title_02_ExtraBold {
+    font-size: 20px;
+    font-family: 'extrabold';
+    color :#000000;
+}
+
+.Title_02_Bold {
+    font-size: 20px;
+    font-family: 'bold';
+    color :#000000;
+}
+
+.Title_02_Regular {
+    font-size: 20px;
+    font-family: 'regular';
+    color :#000000;
+}
+
+.Title_02_Light {
+    font-size: 20px;
+    font-family: 'light';
+    color :#000000;
+}
+
+/* SubTitle_02 */
+
+.SubTitle_02_Heavy {
+    font-size: 18px;
+    font-family: 'heavy';
+    color :#000000;
+}
+
+.SubTitle_02_ExtraBold {
+    font-size: 18px;
+    font-family: 'extrabold';
+    color :#000000;
+}
+
+.SubTitle_02_Bold {
+    font-size: 18px;
+    font-family: 'bold';
+    color :#000000;
+}
+
+.SubTitle_02_Regular {
+    font-size: 18px;
+    font-family: 'regular';
+    color :#000000;
+}
+
+.SubTitle_02_Light {
+    font-size: 18px;
+    font-family: 'light';
+    color :#000000;
+}
+
+/* Body_01 */
+
+.Body_01_Heavy {
+    font-size: 16px;
+    font-family: 'heavy';
+    color :#000000;
+}
+
+.Body_01_ExtraBold {
+    font-size: 16px;
+    font-family: 'extrabold';
+    color :#000000;
+}
+
+.Body_01_Bold {
+    font-size: 16px;
+    font-family: 'bold';
+    color :#000000;
+}
+
+.Body_01_Regular {
+    font-size: 16px;
+    font-family: 'regular';
+    color :#000000;
+}
+
+.Body_01_Light {
+    font-size: 16px;
+    font-family: 'light';
+    color :#000000;
+}
+
+/* Body_02 */
+
+.Body_02_Heavy {
+    font-size: 14px;
+    font-family: 'heavy';
+    color :#000000;
+}
+
+.Body_02_ExtraBold {
+    font-size: 14px;
+    font-family: 'extrabold';
+    color :#000000;
+}
+
+.Body_02_Bold {
+    font-size: 14px;
+    font-family: 'bold';
+    color :#000000;
+}
+
+.Body_02_Regular {
+    font-size: 14px;
+    font-family: 'regular';
+    color :#000000;
+}
+
+.Body_02_Light {
+    font-size: 14px;
+    font-family: 'light';
+    color :#000000;
+}
+
+/* Caption_01 */
+
+.Caption_01_Heavy {
+    font-size: 12px;
+    font-family: 'heavy';
+    color :#000000;
+}
+
+.Caption_01_ExtraBold {
+    font-size: 12px;
+    font-family: 'extrabold';
+    color :#000000;
+}
+
+.Caption_01_Bold {
+    font-size: 12px;
+    font-family: 'bold';
+    color :#000000;
+}
+
+.Caption_01_Regular {
+    font-size: 12px;
+    font-family: 'regular';
+    color :#000000;
+}
+
+.Caption_01_Light {
+    font-size: 12px;
+    font-family: 'light';
+    color :#000000;
+}
+
+/* Caption_02 */
+
+.Caption_02_Heavy {
+    font-size: 10px;
+    font-family: 'heavy';
+    color :#000000;
+}
+
+.Caption_02_ExtraBold {
+    font-size: 10px;
+    font-family: 'extrabold';
+    color :#000000;
+}
+
+.Caption_02_Bold {
+    font-size: 10px;
+    font-family: 'bold';
+    color :#000000;
+}
+
+.Caption_02_Regular {
+    font-size: 10px;
+    font-family: 'regular';
+    color :#000000;
+}
+
+.Caption_02_Light {
+    font-size: 10px;
+    font-family: 'light';
+    color :#000000;
+}
+
+/* 폰트파일 */
+
+@font-face {
+    font-family: 'light';
+    src: url('../src/fonts/NanumSquareNeo-aLt.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../src/fonts/NanumSquareNeo-bRg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('../src/fonts/NanumSquareNeo-cBd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'extrabold';
+    src: url('../src/fonts/NanumSquareNeo-dEb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'heavy';
+    src: url('../src/fonts/NanumSquareNeo-eHv.ttf') format('truetype');
+}

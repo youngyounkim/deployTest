@@ -1,0 +1,13 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400px;
+}
+
+.logoWrapper {
+  margin-left: 2px; /* 아이콘과 텍스트 간격 */
+}

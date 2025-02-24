@@ -1,0 +1,318 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* 카드 전체 너비 */
+     
+     
+    
+    border-radius: 16px; /* 테두리 둥글게 */
+    border-color: #E6E6E6; 
+    background-image: url('../../../assets/bookcover22.svg');
+    background-size: cover;
+    border-width: 1px; /* 수정 */
+    border-style: solid; /* 추가 */
+   overflow: hidden;
+   position: relative;
+}
+
+.topwrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 6px;
+   
+    height: 100%; /* 상단 영역 높이 */
+    margin: 42px 33px 18px 33px;
+    
+}
+
+ 
+
+.bottomwrap {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFBF0;
+    /* 하단 영역 높이 */ 
+   padding: 7px 16px 16px 16px;
+   gap: 10px;
+}
+
+.bookImage {
+    width: 82px; /* 책 사진 영역 너비 */
+    
+    background-color: #f0f0f0; /* 임시 배경색 */
+    
+    border-radius: 0px 6px 6px 0px;
+    background-size: cover;
+     overflow:hidden
+}
+
+.bookImage img{
+  width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* 남은 영역 모두 차지 */
+    gap: 12px;
+    
+}
+
+.tagwrap {
+    display: flex;
+    flex-direction: row;
+    
+    margin-bottom: 5px; /* 하단 여백 */
+    gap: 4px;
+}
+
+.tag {
+    background-color: #e6e6e6; /* 태그 배경색 */
+    padding: 3px 5px; /* 태그 내부 여백 */
+    border-radius: 5px; /* 태그 둥글게 */
+    margin-right: 5px; /* 우측 여백 */
+    font-size: 12px; /* 태그 글자 크기 */
+    ;
+}
+
+.iconText {
+  display: flex;
+  flex-direction: column; /* 아이콘 텍스트를 수직으로 배치 */
+  gap: 6px; /* 아이콘 텍스트 간의 간격 */
+  line-height: 150%;
+  font-size: 12px;
+  font-weight: Regular;
+  color: #333333;
+  justify-content: center;
+  font-family: NanumSquareNeo,sans-serif;
+  
+}
+
+ 
+ 
+
+.matchRate {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; /* 성향 일치율 항목 간 간격 */
+    width: 100%;
+  }
+  
+  
+  .progressBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 120px; /* 충분한 공간 확보 */
+  }
+  
+  .progressBar {
+    flex-grow: 1;
+    height: 8px;
+    background: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 8px; /* 텍스트와 간격 추가 */
+    position: relative;
+  }
+  
+  .progressFill {
+    height: 100%;
+    background: #facc15;
+    transition: width 0.3s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .progressText {
+    white-space: nowrap; /* 숫자가 줄바꿈되지 않도록 설정 */
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+ 
+  .liveContainer {
+    display : flex;
+  justify-content : center;
+  align-items : center;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    color:#ffffff;
+    padding: 5px 12px;
+    background-color: #F85252;
+    border-radius: 4px;
+    font-size: 12px;
+    border-color: #F40A0A;
+    border-width: 1px; /* 수정 */
+    border-style: solid; /* 추가 */
+  line-height: 1.5;
+  font-family: bold;
+  
+  
+}
+
+
+.ComingContainer{
+  display : flex;
+  justify-content : center;
+  text-align: center;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  color:#808080;
+  padding: 5px 12px;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  font-size: 12px;
+  border-color: #E6E6E6;
+  border-width: 1px; /* 수정 */
+  border-style: solid; /* 추가 */
+line-height: 1.5;
+font-family: bold;
+
+}
+
+.buttonContainer2 {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+   
+   
+  
+}
+
+
+ 
+
+  .Body_02_ExtraBold {
+    font-size: 14px;
+    font-family: 'extrabold';
+    color :#f60000;
+  }
+
+
+.Body_02_Bold {
+    font-size: 14px;
+    font-family: 'bold';
+    color :#000000;
+}
+
+
+/* Body_02 */
+
+.Body_02_Heavy {
+  font-size: 14px;
+  font-family: 'heavy';
+  color :#d10808;
+}
+
+
+
+.Body_02_Regular {
+  font-size: 14px;
+  font-family: 'regular';
+  color :#d10000;
+}
+
+.Body_02_Light {
+  font-size: 14px;
+  font-family: 'light';
+  color :#ca0000;
+}
+
+/* Caption_01 */
+
+.Caption_01_Heavy {
+  font-size: 12px;
+  font-family: 'heavy';
+  color :#000000;
+}
+
+.Caption_01_ExtraBold {
+  font-size: 12px;
+  font-family: 'extrabold';
+  color :#000000;
+}
+
+.Caption_01_Bold {
+  font-size: 12px;
+  font-family: 'bold';
+  color :#000000;
+}
+
+.Caption_01_Regular {
+  font-size: 12px;
+  font-family: 'regular';
+  color :#000000;
+}
+
+.Caption_01_Light {
+  font-size: 12px;
+  font-family: 'light';
+  color :#000000;
+}
+
+/* Caption_02 */
+
+.Caption_02_Heavy {
+  font-size: 10px;
+  font-family: 'heavy';
+  color :#000000;
+}
+
+.Caption_02_ExtraBold {
+  font-size: 10px;
+  font-family: 'extrabold';
+  color :#000000;
+}
+
+.Caption_02_Bold {
+  font-size: 10px;
+  font-family: 'bold';
+  color :#000000;
+}
+
+.Caption_02_Regular {
+  font-size: 10px;
+  font-family: 'regular';
+  color :#000000;
+}
+
+.Caption_02_Light {
+  font-size: 10px;
+  font-family: 'light';
+  color :#000000;
+}
+
+/* 폰트파일 */
+
+@font-face {
+  font-family: 'light';
+  src: url('../src/fonts/NanumSquareNeo-aLt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('../src/fonts/NanumSquareNeo-bRg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('../src/fonts/NanumSquareNeo-cBd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'extrabold';
+  src: url('../src/fonts/NanumSquareNeo-dEb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'heavy';
+  src: url('../src/fonts/NanumSquareNeo-eHv.ttf') format('truetype');
+}

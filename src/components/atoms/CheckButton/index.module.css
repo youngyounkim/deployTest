@@ -1,0 +1,40 @@
+.wrap {
+  width: 161px;
+  height: 42px;
+  background-color: #dbeaff;
+  border: 0px;
+  border-radius: 12px;
+}
+
+.wrap:hover {
+  width: 161px;
+  height: 42px;
+  background-color: #c4defe;
+  border: 0px;
+  border-radius: 12px;
+}
+
+.wrap:active {
+  width: 161px;
+  height: 42px;
+  background-color: #91c0fd;
+  border: 0px;
+  border-radius: 12px;
+}
+
+.wrap:disabled {
+  width: 161px;
+  height: 42px;
+  background-color: #e6e6e6;
+  border: 0px;
+  border-radius: 12px;
+  cursor: not-allowed;
+}
+
+.pressed {
+  width: 161px;
+  height: 42px;
+  background-color: #91c0fd;
+  border: 0px;
+  border-radius: 12px;
+}
