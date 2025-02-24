@@ -1,6 +1,6 @@
 import Title from '../../atoms/Title';
 import styles from './index.module.css';
-import liveshortchapcard_l_default from '../../../assets/image/liveshortchapcard_l_default.svg';
+import liveshortchapcard_l_default from '../../../assets/image/liveshortchapcard_L_default.svg';
 
 const LiveShortChapCardL = ({
   bgImage = liveshortchapcard_l_default,
