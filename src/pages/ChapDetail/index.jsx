@@ -1,6 +1,6 @@
 import useNavigationPage from '../../hooks/useNavigationPage';
 import styles from './index.module.css';
-import TopNavbar from '../../components/atoms/TopNavbar';
+import TopNavBar from '../../components/atoms/TopNavBar';
 import LiveShortChapCardL from '../../components/molecules/LiveShortChapCardL';
 import MatchBar from '../../components/molecules/MatchBar';
 import ChatterCarousel from '../../components/molecules/ChatterCarousel';
@@ -31,7 +31,7 @@ const ChapDetail = () => {
 
   return (
     <div className={styles.wrap}>
-      <TopNavbar navtitle='챕페이지' bell={true} dots={true} />
+      <TopNavBar navtitle='챕페이지' bell={true} dots={true} />
       <LiveShortChapCardL
         image={coverImage}
         topic={title}
